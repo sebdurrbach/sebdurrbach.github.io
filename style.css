@@ -399,6 +399,7 @@ h2 {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4));
 }
 
+
 /********* LINKEDIN ***********/
 
 #linkedin {
@@ -923,8 +924,11 @@ p.form-error {
 /********* FOOTER **********/
 
 footer {
-	height: 40px;
 	background: #222;
+}
+
+footer .content {
+	color: #ddd;
 }
 
 /****** MEDIA QUERIES ******/
