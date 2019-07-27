@@ -157,6 +157,14 @@
 							</div>
 						</div>
 						<div class="skill">
+							<h3>graphql</h3>
+							<span class="percent"></span>
+							<div class="jauge">
+								<div class="line"></div>
+								<div class="full"></div>
+							</div>
+						</div>
+						<div class="skill">
 							<h3>ionic</h3>
 							<span class="percent"></span>
 							<div class="jauge">
@@ -191,7 +199,7 @@
 							</div>
 						</div>
 						<div class="skill">
-							<h3>graphql</h3>
+							<h3>github</h3>
 							<span class="percent"></span>
 							<div class="jauge">
 								<div class="line"></div>
@@ -199,7 +207,7 @@
 							</div>
 						</div>
 						<div class="skill">
-							<h3>github</h3>
+							<h3>postman</h3>
 							<span class="percent"></span>
 							<div class="jauge">
 								<div class="line"></div>
@@ -349,8 +357,50 @@
 			<div class="pic-overlay"></div>
 			<div class="content">
 				<h2>CV</h2>
-				<p>Télécharger la version complète de mon <a id="cv-download" href="cv-sebastien-durrbach.pdf" title="Cliquer pour télécharger" download>CV en PDF</a></p>
+				<p>Télécharger la version de mon <a id="cv-download" href="cv-sebastien-durrbach.pdf" title="Cliquer pour télécharger" download>CV en PDF (296 ko)</a></p>
 				<h3>Formations</h3>
+				<div class="accordion">
+					<input type="checkbox" name="panel" id="nodejs">
+					<label for="nodejs">
+						<h4 title="Cliquer pour afficher le détail">Node.js</h4>
+						<span class="sub-title">Udemy &#8901; Internet &#8901; 2018</span>
+					</label>
+					<div class="accordion-content">
+						<ul>
+							<li> Formation en ligne de 26.5 heures sur Node.js.</li>
+							<li> Plusieurs mini-projets pour s'exercer sur des cas concrets.</li>
+							<li> Nombreux packages abordés comme Express, Mocha, Mongoose, JWT, Socket.io.</li>
+							<li> Utilisation des bases de données non-relationnelles avec MongoDB.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="accordion">
+					<input type="checkbox" name="panel" id="mean-stack">
+					<label for="mean-stack">
+						<h4 title="Cliquer pour afficher le détail">Node & Angular (MEAN Stack)</h4>
+						<span class="sub-title">Udemy &#8901; Internet &#8901; 2018</span>
+					</label>
+					<div class="accordion-content">
+						<ul>
+							<li> Formation en ligne de 12.5 heures sur Node et Angular (complétée à 46%).</li>
+							<li> Structuration d'un projet front / back avec l'utilisation de MongoDB et Mongoose pour la base de données.</li>
+						</ul>
+					</div>
+				</div>
+				<div class="accordion">
+					<input type="checkbox" name="panel" id="angular">
+					<label for="angular">
+						<h4 title="Cliquer pour afficher le détail">Angular 6</h4>
+						<span class="sub-title">Udemy &#8901; Internet &#8901; 2018</span>
+					</label>
+					<div class="accordion-content">
+						<ul>
+							<li> Formation en ligne de 37 heures sur Angular (complétée à 32%).</li>
+							<li> Utilisation de Typescript et d'Angular CLI.</li>
+							<li> Chapitres appronfondis sur les directives, le routing, les observables, etc.</li>
+						</ul>
+					</div>
+				</div>
 				<div class="accordion">
 					<input type="checkbox" name="panel" id="webforce">
 					<label for="webforce">
@@ -389,7 +439,7 @@
 					<input type="checkbox" name="panel" id="conservatoire">
 					<label for="conservatoire">
 						<h4 title="Cliquez pour afficher le détail">Assistant régisseur et logistique</h4>
-						<span class="sub-title">Conservatoire Mozart &#8901; Paris &#8901; 2016 à 2018</span>
+						<span class="sub-title">Conservatoire Mozart &#8901; Paris &#8901; 2016 à 2018 + 2019</span>
 					</label>
 					<div class="accordion-content">
 						<ul>
@@ -535,7 +585,7 @@
 		<article id="contact">
 			<div class="content">
 				<h2>Contact</h2>
-				<p>Mon parcours et mes compétences vous intéressent ? Répondez à la question suivante pour obtenir mon adresse email ou contactez-moi via mon compte <a href="https://www.linkedin.com/in/sebastien-durrbach/">LinkedIn</a>. Si vous êtes codeur, je prend aussi volontiers les remarques ou les conseils concernant ce site.</p>
+				<p>Mon parcours et mes compétences vous intéressent ? Répondez à la question suivante pour obtenir mon adresse email ou contactez-moi via mon compte <a href="https://www.linkedin.com/in/sebastien-durrbach/">LinkedIn</a>. Si vous êtes codeur, je prends aussi volontiers les remarques ou les conseils concernant ce site.</p>
 				<form id="simpleForm" action="/" method="POST">
 					<p><label for="formAnswer">Question : Combien font <span id="randomNumberOne"></span> + <span id="randomNumberTwo"></span> ?</label></p>
 					<div id="formReply"></div>

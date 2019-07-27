@@ -345,7 +345,7 @@ article {
 	padding: 40px 0;
 	font-size: 1.2em;
 	color: #000;
-	text-align: justify;
+	text-align: left;
 	-webkit-transition: .5s;
 	-o-transition: .5s;
 	transition: .5s;
