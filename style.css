@@ -512,7 +512,6 @@ h2 {
 }
 
 .work-banner {
-	color: #fff;
 	position: relative;
 	border-left: 5px solid rgb(0,160,120);
 }
@@ -530,9 +529,15 @@ h2 {
 }
 
 .work-title p {
-	color: #555;
-	font-style: italic;
+	color: #666;
+	font-size: 1em;
+	font-weight: 400;
 	text-align: left;
+}
+
+p.work-state {
+	margin: 5px 0;
+	font-size: 0.8em;
 }
 
 /********** CV ***************/
