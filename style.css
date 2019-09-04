@@ -688,8 +688,8 @@ input[name='panel']:checked ~ .accordion-content {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	-webkit-filter: grayscale(75%);
-	filter: grayscale(75%);
+	-webkit-filter: grayscale(75%) brightness(0.8);
+	filter: grayscale(75%) brightness(0.8);
 	-webkit-transition: .5s ease-in-out;
 	-o-transition: .5s ease-in-out;
 	transition: .5s ease-in-out;
@@ -720,8 +720,8 @@ input[name='panel']:checked ~ .accordion-content {
 }
 
 .pic-item:hover .pic-background {
-	-webkit-filter: grayscale(0%);
-	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%) brightness(1);
+	filter: grayscale(0%) brightness(1);
 }
 
 .pic-background-clic {
@@ -762,6 +762,7 @@ input[name='panel']:checked ~ .accordion-content {
 	-webkit-transition: .6s .4s;
 	-o-transition: .6s .4s;
 	transition: .6s .4s;
+	z-index: 1;
 }
 
 .h3-clic {
